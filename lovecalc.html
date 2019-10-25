@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>&hearts; Dating Me &hearts;</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ea899a;">
+            <h2 id="heart"></h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Einstellungen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lovecalc.html"><b>LIEBES&hearts;RECHNER</b></a>
+                    </li>
+                </ul>
+                <div class="dropdown mr-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sortieren nach:</button>
+                    <div class="dropdown-menu" id="sortBtn" aria-labelledby="dropdownMenuButton">
+                        <button class="dropdown-item">Alter (jung -> älter)</button>
+                        <button class="dropdown-item" href="#">weiblich</button>
+                        <button class="dropdown-item" href="#">männlich</button>
+                    </div>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="searchInput" class="form-control mr-sm-2" type="search" aria-label="Search">
+                    <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Suchen</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+       <center> <div class="calc card w-50 m-3 text-center ">
+            <div class="card-header bg-danger text-white">&hearts; LIEBESRECHNER &hearts;</div>
+            <div class="card-body">
+                <form class="form-inline w-55 m-auto">
+                    <div class="form-group">
+                        <input type="text" name="" class="form-control text-center" placeholder="Dein Name" id="name">
+                        <span>+</span>
+                        <input type="text" name="" class="form-control text-center" placeholder="Name des Schwarms" id="lname">
+                    </div>
+                </form> <br>
+                <div class="w-30 m-auto">
+                    <button class="calcBtn btn btn-success w-30" onclick="checkloveper()"> berechnen </button>
+                </div>
+                <br>
+                <div>
+                    <input type="text" name="" placeholder="Ergebnis" class="form-control text-center w-25 m-auto" id="lovevalue">
+                </div>
+            </div>
+        </div></center>
+    </main>
+    <footer>
+        <div id="copyright">&copy; 2019 Markus Gehmayer - Dating Me</div>
+    </footer>
+    <script src="js/calc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
