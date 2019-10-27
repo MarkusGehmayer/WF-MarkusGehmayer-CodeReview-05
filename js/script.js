@@ -189,7 +189,7 @@ var datingJson = [
         "picurl" : "./img./brown3_w.jpg",
         "text" : "Hidi ho!",
         "isLiked" : "false"
-    },
+    }
 ]
 
 var dating = JSON.stringify(datingJson);
